@@ -37,22 +37,22 @@ Findings:
 3. Stationarity (ADF Test)
 - Null hypothesis rejected for both MRK and MS returns.
 - Daily returns are stationary, oscillating around a constant mean with no unit root.
-- Confirms unpredictability of long-term returns → supports Efficient Market Hypothesis.
+- Confirms unpredictability of long-term returns which supports Efficient Market Hypothesis.
 
 4. Nikkei 225: Principal Component Analysis (PCA)
 - PC1: Captures largest share of variance in daily returns.
-- High-loading stocks: SoftBank Group (9984.T), Tokyo Electron (8035.T) → volatile, drive index movements
-- Low-loading stocks: NTT (9432.T), KDDI (9433.T) → stable, weakly correlated with index, offering diversification benefits.
+- High-loading stocks: SoftBank Group (9984.T), Tokyo Electron (8035.T) are more volatile, drive index movements
+- Low-loading stocks: NTT (9432.T), KDDI (9433.T) are more stable, weakly correlated with index, offering diversification benefits.
 
 
 5. Portfolio and Sector Performance
 - Weighted Portfolio (2019–2024): Tracks Nikkei 225 closely but diverges during crises (COVID-19, late 2024).
-- Sector insights: Telecoms and consumer staples (NTT, KDDI, Suntory) → stability. Financials and technology (SoftBank, Tokyo Electron) → higher cyclicality and exposure to shocks.
+- Sector insights: Telecoms and consumer staples (NTT, KDDI, Suntory) are stable. Financials and technology (SoftBank, Tokyo Electron) are more cyclical and have higher exposure to shocks.
 
 
 6. Regression Model (Vodafone vs. SSE)
 - OLS Results: SSE returns significantly predict Vodafone’s returns (β = 0.337, p < 0.001).
-- Weak explanatory power: R² = 0.065 → Vodafone’s performance mostly driven by other market factors.
+- Weak explanatory power: R² = 0.065 - Vodafone’s performance mostly driven by other market factors.
 - Diagnostics:
    - Residuals non-normal (Jarque-Bera test, p < 0.001).
    - Heteroscedasticity present (Breusch-Pagan test, p < 0.001).
@@ -67,7 +67,7 @@ Findings:
 Significance
 
 1.	Risk–Return Trade-Off:
-- MS offers higher returns but greater volatility → attractive for risk-tolerant investors.
+- MS offers higher returns but greater volatility more attractive for risk-tolerant investors.
 - MRK provides steady, defensive performance.
   
 2.	Volatility Clustering:
@@ -79,7 +79,7 @@ Significance
 - Low-loading telecoms provide diversification and stability.
   
 4. Cross-Stock Relationships:
-- Vodafone and SSE moderately correlated → weak but positive link.
+- Vodafone and SSE moderately correlated - weak but positive link.
 - Regression confirms influence but low explanatory power, highlighting industry-specific drivers.
   
 6.	Investment Implications:
